@@ -51,16 +51,90 @@
                 </dic>
             </nav>
         </header>
+        <div class="container next-launch">
+        </div>
 
+        <div class="container timerlaunch">
+            <small class="timerlaunchCategory " id="timerlaunchCategory">
+                Next Launch </small>
+            <div class="row timerlaunch-counter">
+                <div class="col countdown" id="countDown">
+                    <div class="countdown__counter">
+                        <p>Days</p>
+                        <span id="days"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="countdown__counter">
+                        <p>hours</p>
+                        <span id="hours"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="countdown__counter">
+                        <p>min</p>
+                        <span id="min"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="countdown__counter">
+                        <p>sec</p>
+                        <span class="sec" id="sec"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container cardscontainer">
+            <h3 class=" cardTitle ">Rockets</h3>
+            <div class=" row cards  ">
+            </div>
+        </div>
+        <div class="container contactcontainer">
+            <h3 class=" cardTitleContact ">Contact us</h3>
+            <div class="row">
+                <div class="list col-md order-md-2">
+                    <!-- Accordion -->
+                </div>
+                <div class="col-md order-md-1">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label> <input type="text" class="form-control"
+                                id="name" placeholder="name"> <span class="error error-name">Please enter your
+                                name</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label> <input type="email"
+                                class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                            <span class="error error-email">Please enter your email</span><br>
+                            <span class="error error-invalid-email">Please enter a valid email</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message us</label>
+                            <textarea class="form-control" id="message" rows="6"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submi" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                    <section class="success-message">
+                        <div>
+                            <h2>Thanks for the message!</h2>
+                            <p>We will get back to you as fast as possibel</p>
+                            <p>Have a awsome day!</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="container upcominlaunhContainer ">
+            <h3 class="cardTitle  ">Next Launches</h3>
+            <div class="row upcominlaunh">
 
+            </div>
 
-
-
-
-
-
-
+        </div>
     </div>
+
 
 
 
@@ -79,6 +153,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <script src="js/form.js" type="module"></script>
+
+    <script src="js/index.js" type="module"></script>
 </body>
 
 </html>

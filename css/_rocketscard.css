@@ -1,0 +1,51 @@
+.cardscontainer {
+  margin-top: 80px;
+}
+.cardTitle {
+  position: relative;
+  font-weight: 500;
+  font-family: "Ek Mukta", sans-serif;
+  text-transform: uppercase;
+  color: #fc0;
+  mix-blend-mode: color-dodge;
+  letter-spacing: 0.2em;
+  margin-bottom: 24px;
+}
+.cardTitle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 180px;
+  top: 16px;
+  width: 16px;
+  height: 2px;
+  background-color: #fc0;
+  display: block;
+  mix-blend-mode: color-dodge;
+}
+
+.card img {
+  object-fit: cover;
+  background: rgba(0, 35, 71, 0.5);
+}
+
+.card {
+  color: #f1f1f1;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 4px;
+  background: rgba(0, 35, 71, 0.5);
+  margin-bottom: 16px;
+}
+.card-body h3 {
+  color: #fc0;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.card-text {
+  color: #f1f1f1;
+  line-height: 1.3;
+}

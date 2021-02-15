@@ -1,2 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&family=Raleway:wght@400;700&display=swap");
 @import "_nav.css";
+@import "_herocard.css";
+@import "_timerlaunch.css";
+@import "_rocketscard.css";
+@import "_detailHolder.css";
+@import "_form.css";
+@import "_accordion.css";
+
+.wrappper {
+  background-image: url(../img/altinay-dinc-LluELtL5mK4-unsplash.jpg);
+  font-family: "Ek Mukta", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.upcominlaunhContainer {
+  margin-top: 80px;
+}
+
+.event_details {
+  background: rgba(0, 35, 71, 0.5);
+  padding: 16px;
+  color: #f1f1f1;
+  margin-left: 8px;
+  margin-top: 16px;
+}
+
+.event_details .date {
+  color: #ffffff;
+  padding-right: 15px;
+  border-right: 2px solid #fdc632;
+  font-size: 16px;
+}
+
+.event_details .date span {
+  display: block;
+  color: #fdc632;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.event_details .time-location {
+  padding-left: 16px;
+  font-size: 14px;
+}
+
+.eventtext {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+/*
+
+*/
