@@ -38,6 +38,8 @@
 }
 .success-message {
   display: none;
+  background: rgba(0, 35, 71, 0.5);
+  padding: 16px;
 }
 .success-message h2 {
   color: #de6600;
