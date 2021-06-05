@@ -38,8 +38,8 @@
 .event_details .date span {
   display: block;
   color: #fdc632;
-  font-size: 28px;
-  font-weight: 500;
+  font-size: 72px;
+  font-weight: 700;
 }
 
 .event_details .time-location {
